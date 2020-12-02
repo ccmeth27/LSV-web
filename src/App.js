@@ -1,25 +1,31 @@
 import logo from './logo.svg';
+import React, {Component} from 'react';
+import lsvLogo from './LSV-logo-gold-vector.png';
 import './App.css';
+import Iframe from './Iframe.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+        src: 'https://discordapp.com/widget?id=763951898772373544&theme=dark'
+    };
+}
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1>LyonShare Ventures</h1>
+            <div className="Second-row">
+              <img src={lsvLogo} className="LSV-logo" alt="logo" />
+              <Iframe source={this.state.src}/>
+            </div>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
