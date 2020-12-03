@@ -11,7 +11,7 @@ class App extends Component {
     this.state = {
         src: 'https://discordapp.com/widget?id=763951898772373544&theme=dark'
     };
-}
+  }
 
   render() {
     return (

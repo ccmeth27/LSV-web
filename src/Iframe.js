@@ -8,10 +8,9 @@ const Iframe = ({ source }) => {
 
     const src = source;     
     return (
-        // basic bootstrap classes. you can change with yours.
         <div className="col-md-12">
             <div className="emdeb-responsive">
-                <iframe src={src} width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe src={src} title="discord-embed" width="350" height="350" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
             </div>
         </div>
     );
