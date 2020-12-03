@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import React, {Component} from 'react';
 import lsvLogo from './LSV-logo-gold-vector.png';
 import './App.css';
