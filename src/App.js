@@ -1,31 +1,15 @@
-
-import React, {Component} from 'react';
-import lsvLogo from './LSV-logo-gold-vector.png';
+import React from 'react';
 import './App.css';
-import Iframe from './Iframe.js'
+import Navi from './Navigation.js'
 
-class App extends Component {
+export default function App () {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-        src: 'https://discordapp.com/widget?id=763951898772373544&theme=dark'
-    };
-  }
 
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1>LyonShare Ventures</h1>
-            <div className="Second-row">
-              <img src={lsvLogo} className="LSV-logo" alt="logo" />
-              <Iframe source={this.state.src}/>
-            </div>
-        </header>
-      </div>
-    );
-  }
+
+  return (
+    <div className="App">
+      <Navi />
+    </div>
+  );
+  
 }
-
-export default App;
