@@ -1,0 +1,14 @@
+
+.Testimonial-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+.Carousel-container {
+    
+    height: 50%;
+    width: 60%;
+}

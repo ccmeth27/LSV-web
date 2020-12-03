@@ -1,0 +1,30 @@
+.Nav-menu {
+    list-style-type: '';
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    padding: 25px;
+    
+}
+
+.Nav-group {
+    padding-left: 15px;
+    text-decoration: 'none';
+    
+}
+
+.Nav-links {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+.Nav-logo {
+    display: flex;
+    max-width: 110px;
+    max-height: 150px;
+    margin-left: -30px;
+    margin-right: -20px;
+    margin-top: -15px;
+}

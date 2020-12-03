@@ -1,0 +1,22 @@
+.Features-header {
+    color: #ffffff;
+    font-size: 2em;
+}
+.Trade-alerts {
+    max-height: 600px;
+    padding-left: 10px;
+}
+.First-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Feature-group {
+    color: #ffffff;
+    padding-right: 10px;
+}
+.Feature-text {
+    
+}

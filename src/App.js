@@ -8,7 +8,7 @@ export default function App () {
 
   return (
     <div className="App">
-      <Navi />
+      <Navi classname="Nav-bar"/>
     </div>
   );
   
