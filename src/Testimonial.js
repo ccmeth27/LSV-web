@@ -12,7 +12,8 @@ import './Testimonial.css';
 export default function Testimonial() {
     return (
       <div className="Testimonial-page">
-        <h2 className="Testimonial-header">Testimonials</h2>
+        <h1 className="Testimonial-header">Testimonials</h1>
+        <h3>See what our members have to say about us!</h3>
         <div className="Carousel-container">
           <MyCarousel/>
         </div>
