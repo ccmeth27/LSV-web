@@ -1,10 +1,10 @@
 
 import React from 'react';
-import jeanbean from './testimonial_jeanbean.png';
-import myu from './testimonial-myu.png';
-import double from './double-testimonial.png';
-import triple from './triple-testimonial.png';
-import greenbean from './greanbean-testimonial.png';
+import jeanbean from './testimonials/testimonial_jeanbean.png';
+import myu from './testimonials/testimonial-myu.png';
+import double from './testimonials/double-testimonial.png';
+import triple from './testimonials/triple-testimonial.png';
+import greenbean from './testimonials/greanbean-testimonial.png';
 // import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -20,13 +20,13 @@ export default function MyCarousel () {
                     <img src={double} alt="carousel-2"/>
                 </div>
                 <div>
-                    <img src={myu} alt="carousel-2"/>
+                    <img src={myu} alt="carousel-3"/>
                 </div>
                 <div>
-                    <img src={jeanbean} alt="carousel-2"/>
+                    <img src={jeanbean} alt="carousel-4"/>
                 </div>
                 <div>
-                    <img src={greenbean} alt="carousel-2"/>
+                    <img src={greenbean} alt="carousel-5"/>
                 </div>
 
             </Carousel>
