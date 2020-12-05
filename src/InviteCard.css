@@ -1,0 +1,25 @@
+.LSV-logo {
+    width: 300px;
+    margin-bottom: -15px;
+}
+.Discord-invite {
+    background-color: #373940;
+    border-radius: 10%;
+    height: 325px;
+    padding: 10px;
+}
+
+.Invite-title {
+    color: #8F7216;
+    font-weight: 600;
+}
+.Invite-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Discord-button {
+    width: 40%;
+    line-height: 2em;
+    border-radius: 10%;
+}

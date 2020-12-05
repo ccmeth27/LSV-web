@@ -10,8 +10,17 @@
 .Carousel-container {
     background-color: #373940;
     height: 50%;
-    width: 60%;
-    padding: 20px;
-    margin: 15px;
+    width: 50%;
+    padding: 25px;
     border-radius: 5%;
+}
+
+@media screen and (max-width: 949px) {
+    .Carousel-container {
+        background-color: #373940;
+        height: 80%;
+        width: 90%;
+        padding: 25px;
+        border-radius: 5%;
+    }
 }

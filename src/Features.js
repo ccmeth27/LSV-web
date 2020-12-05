@@ -12,22 +12,22 @@ export default function Features() {
           <div>
             <div className="Card">
               <div className="Feature-group">
-                <h3 className="Feature-text">Daily Trade Alerts</h3>
+                <h3 className="Feature-name">Daily Trade Alerts</h3>
                 <p>Description about daily trade alerts. Receive alerts whenever our fearless leader makes a trade...</p>
               </div>
                 <img src={tradeAlerts} className="Trade-alerts" alt="features-1" />
             </div>
             <div className="Card">
               <div className="Feature-group">
-                <h3 className="Feature-text">Request Charts</h3>
+                <h3 className="Feature-name">Request Charts</h3>
                 <p>Description about Charts Completed. Members have the ability to request chart analysis simply by entering a ticker...</p>
               </div>
               <img src={chartsCompleted} className="Trade-alerts" alt="features-1" />
             </div>
             <div className="Card">
               <div className="Feature-group">
-                <h3 className="Feature-text">Best of the Best</h3>
-                <p>Description about Best of the Best. Stocks that you should highly consider adding to your portfolio, etc.</p>
+                <h3 className="Feature-name">Best of the Best</h3>
+                <p className="Feature-text">Description about Best of the Best. Stocks that you should highly consider adding to your portfolio, etc.</p>
               </div>
               <img src={bestOfBest} className="Trade-alerts" alt="features-1" />
             </div>
