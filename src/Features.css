@@ -1,6 +1,10 @@
 .Features-header {
-    color: #ffffff;
+    color: #8F7216;
     font-size: 2em;
+    justify-self: center;
+}
+.Accordion-container {
+    align-content: center;
     justify-self: center;
 }
 .Trade-alerts {
@@ -31,6 +35,7 @@
 }
 .Features-page {
     margin: 5px;
+    
 }
 h1 {
     text-align: center;

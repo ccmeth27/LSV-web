@@ -3,7 +3,8 @@
     margin-bottom: -15px;
 }
 .Discord-invite {
-    background-color: #373940;
+    background-color: #2F3136;
+    box-shadow: 5px 10px;
     border-radius: 10%;
     height: 325px;
     padding: 10px;

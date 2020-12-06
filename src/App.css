@@ -11,10 +11,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #f1f0ec;
+  
 }
 h1 {
   text-align: center;
+  color: #8F7216;
 }
 
 
@@ -37,18 +38,21 @@ h1 {
   margin-right: 15px;
   margin-left: 20px;
   padding: 10px;
-  background-color: #373940;
+  background-color: #2F3136;
+  box-shadow: 5px 10px;
   border-radius: 10%;
 }
 
 h5 {
   margin-top: 5%;
+  color: #8F7216;
 }
 
 p {
   margin-top: -15px;
   font-size: 0.7em;
   flex-wrap: wrap;
+  color: #ffffff;
 }
 
 
